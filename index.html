@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Raphael Carvalho" />
+    <meta name="description" content="Raphael Carvalho personal website" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raphael Carvalho personal website</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- Favicoin RC-->
+    <link rel="icon" type="image/x-icon" href="images/rapha.uy_favicon_r.png"/>
+
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/rapha.uy_favicon_r.png"
+              width="50"
+              alt="Web page logo"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+<!--
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+-->            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-cener align-items-center">
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="images/Foto_BJ_cuadrada.png"
+          alt="Raphael Carvalho hero image"
+        />
+        <h1>Hi, I'm Raphael Carvalho</h1>
+        <h2>Software Engeneer</h2>
+      </div>
+    </section>
+
+    <section id="about-me" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">About me</h2>
+        <p class="seccion-texto">
+          I am a software engineer graduated from UDELAR (Universidad de la República) in Uruguay. I am currently dedicated to the development of data applications using Python, and web applications using React and Node.js. In this website you will find information about my background, skills and my projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="experiencia seccion-clara">
+      <div class="contenedor text-center">
+        <div class="row">
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop rounded-circle"></i>
+                <p class="experiencia-titulo">Frontend Development</p>
+                <p class="experiencia-texto">As a frontend developer, I can help you create high-quality web applications using React and TypeScript. I focus on building modern, scalable, and efficient user interfaces. For the visual part, I use Bootstrap for smaller projects and Material UI for larger and more complex applications, as it is an excellent library of components that allows for greater customization and flexibility. With my experience in web application development, I can help you improve the usability and design of your projects.</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">React.js</span>
+                  <span class="badge text-bg-primary">TypeScript</span>
+                  <span class="badge text-bg-primary">Bootstrap</span>
+                  <span class="badge text-bg-primary">Material UI</span>
+              </div>
+            </div>
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-back rounded-circle"></i>
+                <p class="experiencia-titulo">Backend Development</p>
+                <p class="experiencia-texto">In backend development I generally use Node.js and Next.js to build scalable and efficient web applications. In addition, I have experience in the design and development of REST APIs using JSON for communication between frontend and backend. For database management, I have knowledge in MySQL and MongoDB, which allows me to adapt to the specific needs of each project. I can also help you build microservices for more complex and efficient systems.</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Next.js</span>
+                    <span class="badge text-bg-primary">Node.js</span>
+                    <span class="badge text-bg-primary">API REST</span>
+                    <span class="badge text-bg-primary">JSON</span>
+                    <span class="badge text-bg-primary">MySQL</span>
+                    <span class="badge text-bg-primary">MongoDB</span>
+                    <span class="badge text-bg-primary">Microservice</span>
+                </div>
+            </div>
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-filetype-py rounded-circle"></i>
+                <p class="experiencia-titulo">Python Fullstack</p>
+                <p class="experiencia-texto">As a Python Fullstack developer, I can help you build robust and scalable web applications using technologies like Flask, Django, and FastAPI. Additionally, I have experience in scripting and data scraping, which allows me to access and process data from various sources. For data analysis, I use Pandas, a powerful Python library for data manipulation and analysis. I can also help you develop automation and data analysis tools for your business. For web scraping, I use Beautiful Soup, a Python library that allows for quick and easy information extraction from websites.</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Flask</span>
+                    <span class="badge text-bg-primary">Django</span>
+                    <span class="badge text-bg-primary">Scripting</span>
+                    <span class="badge text-bg-primary">Data Scraping</span>
+                    <span class="badge text-bg-primary">Pandas</span>
+                    <span class="badge text-bg-primary">FastAPI</span>
+                    <span class="badge text-bg-primary">Beautiful Soup</span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects section -->
+    <section id="projects" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">My recent projects</h2>
+      <h3 class="seccion-descripcion">These are some of my recent projects.</h3>
+
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- React project -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/rick_and_morty.png" alt="React Project">
+              <div class="overlay">
+                <p>React</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/raphauy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://react.rapha.uy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="seccion-descripcion-proyecto">Small Frontend application that uses the Rick and Morty API to test some of the beautiful Material UI components with React and TypeScript :-)</p>
+          </div>
+          <!-- React project -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto2.png" alt="Python project">
+              <div class="overlay">
+                <p>Python</p>
+                <div class="iconos-contenedor">
+                  <!--
+                  <a href="https://github.com/raphauy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://python.rapha.uy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                  -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Comming project -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto3.png" alt="Comming project">
+              <div class="overlay">
+                <p>Comming...</p>
+                <div class="iconos-contenedor">
+                  <!--
+                  <a href="https://github.com/raphauy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://comming.rapha.uy" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--
+      <a href="https://github.com/raphauy" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">See more projects <i class="bi bi-arrow-right-circle-fill"></i></button>
+      </a>
+-->
+</section>
+
+    <!-- Testimonials 
+    <section id="testimonials" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonials</h2>
+      <h3 class="seccion-descripcion">These are some testimonials from my clients.</h3>
+  
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img src="images/cliente1.svg" class="testimonio-imagen rounded-circle" alt="Testimonial number 1">
+              <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam cum veritatis! Unde in illum, fugiat sed nostrum cumque corrupti ullam deleniti </p>
+              <div class="testimonio-info">
+                <p class="cliente">Juancito Pérez</p>
+                <p class="cargo">Gerente de proyectos en Upwork</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img src="images/cliente2.svg" class="testimonio-imagen rounded-circle" alt="Testimonial number 2">
+              <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam cum veritatis! Unde in illum, fugiat sed nostrum cumque corrupti ullam deleniti </p>
+              <div class="testimonio-info">
+                <p class="cliente">Pedro Larrosa</p>
+                <p class="cargo">Gerente de proyectos en F1 team</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img src="images/cliente3.svg" class="testimonio-imagen rounded-circle" alt="Testimonial number 3">
+              <p class="testimonio-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam cum veritatis! Unde in illum, fugiat sed nostrum cumque corrupti ullam deleniti </p>
+              <div class="testimonio-info">
+                <p class="cliente">Pablo Cuevas</p>
+                <p class="cargo">Gerente de proyectos en Cuevasland</p>
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+    </section>
+    -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container rectangulo text-center d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Let's talk!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contact me to start your project, be it frontend, backend, full stack or data processing with Python.
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              <a href="mailto:rapha.uy@rapha.uy">
+                <button type="button">
+                  Contact
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footere section -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-cener">
+      <img class="footer-logo" src="images/rapha.uy_favicon_r_blanco.png" alt="Logo">
+      <p class="footer-texto text-center">There is always something to learn!<br>Let's create a project together!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-cener">
+        <a href="https://www.linkedin.com/in/raphauy/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/raphauy" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+        <a href="https://twitter.com/raphauy" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+        <a href="https://instagram.com/raphauy" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+        <a href="https://telegram.me/raphauy" target="_blank" rel="noopener noreferrer"><i class="bi bi-telegram"></i></a>
+        <a href="https://join.skype.com/invite/i7idMKCkRcLB" target="_blank" rel="noopener noreferrer"><i class="bi bi-skype"></i></a>
+        <a href="https://wa.me/59898353507" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:rapha.uy@rapha.uy" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="derechos-de-autor">Created by Raphael Carvalho (2023) &#169;</div>
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
