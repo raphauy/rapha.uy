@@ -179,6 +179,7 @@ h1 {
     text-align: center;
 }
 
+
 .overlay p {
     font-size: 25px;
     font-weight: bold;
@@ -205,6 +206,7 @@ h1 {
 
 .overlay .iconos-contenedor {
     display: flex;
+    justify-content: center;
 }
 
 .overlay i {
