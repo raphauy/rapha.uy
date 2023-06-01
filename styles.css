@@ -204,6 +204,35 @@ h1 {
     opacity: 1;
 }
 
+.proyectos-contenedor button {
+    color: grey;
+    font-weight: bold;
+    border: 2px solid #656060;
+    padding: 10px 2em;
+    margin: 5px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.screenshot {
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+}
+
+.screenshot img {
+    background-color: #656060;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    border-color: #0a0a23;
+    border: #0a0a23;
+}
+
+
+
 .overlay .iconos-contenedor {
     display: flex;
     justify-content: center;
