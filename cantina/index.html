@@ -35,24 +35,27 @@
             </div>
         </div>
 
-        
+        <!-- Bond Widget - soporte -->
+        <div id="bond-widget-soporte" style="width: 100%; height: 600px; min-height: 400px;"></div>
         <script>
-        (function(d,t) {
-          var BASE_URL="https://agentes.shock.uy";
-          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src=BASE_URL+"/packs/js/sdk.js";
-          g.defer = true;
-          g.async = true;
-          s.parentNode.insertBefore(g,s);
-          g.onload=function(){
-            window.chatwootSDK.run({
-              websiteToken: 'kkisCods9Dv7PdaHwdvghYeJ',
-              baseUrl: BASE_URL
-            })
-          }
-        })(document,"script");
-      </script>
-      
+        (function() {
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://local.rctracker.dev/widget/raphael/soporte';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.border = 'none';
+        iframe.style.borderRadius = '12px';
+        iframe.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)';
+        iframe.title = 'Chat de soporte';
+        
+        const container = document.getElementById('bond-widget-soporte');
+        if (container) {
+        container.appendChild(iframe);
+        }
+        })();
+        </script>
+        <!-- Fin Bond Widget -->
+        
     
     </body>
 </html>
