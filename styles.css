@@ -20,6 +20,20 @@ h1 {
     font-family: 'Alfa Slab One', cursive;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 a {
+    color: #7ade30;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #7ade30;
+}
+
 .seccion-oscura {
     color: white;
     background-color: #1b1b32;
